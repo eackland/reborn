@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab" type="text/css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i"type="text/css">
+
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+	            mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <!--<span class="mdl-layout-title">Logo</span>-->
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation.Links. -->
+      <nav class="mdl-navigation mdl-layout--fixed-header">
+				<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+        <label class="mdl-button mdl-js-button mdl-button--icon"
+               for="fixed-header-drawer-exp">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample"
+                 id="fixed-header-drawer-exp">
+        </div>
+      </div>
+        <a class="mdl-navigation__link" href="">
+					<!-- Number badge on icon -->
+					<i class="material-icons mdl-badge mdl-badge--overlap" data-badge="1">notifications</i>
+				</a>
+				<a class="mdl-navigation__link" href="">
+					<!-- Number badge on icon -->
+					<i class="material-icons mdl-badge mdl-badge--overlap" data-badge="1">question_answer</i>
+				</a>
+      </nav>
+    </div>
+
+  </header>
+
+  <div class="mdl-layout__drawer">
+    <div class="user_details">
+			<div class="mdl-list">
+		  <div class="mdl-list__item">
+		    <span class="mdl-list__item-primary-content">
+		      <i class="material-icons mdl-list__item-avatar">person</i>
+		      <span>Bryan Cranston</span>
+		    </span>
+		    <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+		  </div>
+		</div>
+    </div>
+		<div class="mdl-navigation">
+
+      <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">home</i> Inicio</a>
+			<a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">timeline</i> Unidades de aprendizaje</a>
+			<a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">local_activity</i> Actividades de aprendizaje</a>
+			<a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">supervisor_account</i> Participantes</a>
+			<a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">email</i> Mensajes</a>
+
+      <div class="mdl-accordion">
+        <a class="mdl-navigation__link mdl-accordion__button mdl-button mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons mdl-accordion__icon mdl-animation--default">expand_more</i>
+          <i class="material-icons">local_library</i> Biblioteca
+        </a>
+        <div class="mdl-accordion__content-wrapper">
+          <div class="mdl-accordion__content mdl-animation--default">
+            <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect">Referencias</a>
+            <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect">Videos</a>
+            <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect">Documentos</a>
+          </div>
+        </div>
+      </div>
+
+			<a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">settings_backup_restore</i> Viajar al pasado</a>
+			<a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect"><i class="material-icons">insert_chart</i> Estadisticas</a>
+
+
+
+			<div class="mdl-accordion">
+        <a class="mdl-navigation__link mdl-accordion__button mdl-button mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons mdl-accordion__icon mdl-animation--default">expand_more</i>
+          <i class="material-icons">sort</i> Filtro
+        </a>
+        <div class="mdl-accordion__content-wrapper">
+          <div class="mdl-accordion__content mdl-animation--default">
+            stuff here
+          </div>
+        </div>
+      </div>
+
+			<div class="mdl-accordion">
+        <a class="mdl-navigation__link mdl-accordion__button mdl-button mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons mdl-accordion__icon mdl-animation--default">expand_more</i>
+          <i class="material-icons">help</i> Ayuda
+        </a>
+        <div class="mdl-accordion__content-wrapper">
+          <div class="mdl-accordion__content mdl-animation--default">
+            <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect">Preguntas frecuentes</a>
+            <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect">Infórmanos de un error</a>
+            <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect">Haznos una sugerencia</a>
+          </div>
+        </div>
+      </div>
+
+			<div class="mdl-accordion">
+        <a class="mdl-navigation__link mdl-accordion__button mdl-button mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons mdl-accordion__icon mdl-animation--default">expand_more</i>
+          <i class="material-icons">build</i> Configuración
+        </a>
+        <div class="mdl-accordion__content-wrapper">
+          <div class="mdl-accordion__content mdl-animation--default">
+            <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect">Editar perfil</a>
+            <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect">Notificaciones</a>
+            <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect">Cambiar contraseña</a>
+          </div>
+        </div>
+      </div>
+
+			<div class="mdl-accordion">
+        <a class="mdl-navigation__link mdl-accordion__button mdl-button mdl-js-button mdl-js-ripple-effect">
+          <i class="material-icons mdl-accordion__icon mdl-animation--default">expand_more</i>
+          <i class="material-icons">language</i> Idioma
+        </a>
+        <div class="mdl-accordion__content-wrapper">
+          <div class="mdl-accordion__content mdl-animation--default">
+            <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect">English</a>
+            <a class="mdl-navigation__link mdl-button mdl-js-button mdl-js-ripple-effect">Español</a>
+          </div>
+        </div>
+      </div>
+
+		</div>
+		<div class="legal">
+			<p class="copyright">ASPgems ©</p>
+			<ul>
+				<li><a href="">Privacidad</a></li>
+				<li><a href="">Legal</a></li>
+				<li><a href="">Contacto</a></li>
+			</ul>
+		</div>
+  </div>
+
+  <main class="mdl-layout__content">
+		<!-- main content -->
+      
+
+
+
+<div class="page-content">
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col">
+        <h1><i class="material-icons">timeline</i> Unidades de aprendiazje</h1>
+    </div>
+    <div class="mdl-cell mdl-cell--4-col">
+        <div class="demo-card-square mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text">Update</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Aenan convallis.
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      View Updates
+    </a>
+  </div>
+</div>
+
+    </div>
+    <div class="mdl-cell mdl-cell--4-col">
+      <div class="demo-card-square mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text">Update</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Aenan convallis.
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      View Updates
+    </a>
+  </div>
+</div>
+
+    </div>
+    <div class="mdl-cell mdl-cell--4-col">
+      <div class="demo-card-square mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text">Update</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Aenan convallis.
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      View Updates
+    </a>
+  </div>
+</div>
+
+    </div>
+    <div class="mdl-cell mdl-cell--4-col">
+      <div class="demo-card-square mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text">Update</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Aenan convallis.
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      View Updates
+    </a>
+  </div>
+</div>
+
+    </div>
+    <div class="mdl-cell mdl-cell--4-col boom mdl-js-ripple-effect">
+      <span class="mdl-ripple"></span>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+  </main>
+</div>
+
+<!-- end of main content -->
+
+
+</body>
+<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+  $(function(){
+    $('.mdl-accordion__content').each(function(){
+      var content = $(this);
+      content.css('margin-top', -content.height());
+    });
+    $(document.body).on('click', '.mdl-accordion__button', function(){
+      $(this).parent('.mdl-accordion').toggleClass('mdl-accordion--opened');
+    });
+  });
+</script>
+</html>
